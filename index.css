@@ -1,0 +1,202 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url("https://www.icegif.com/wp-content/uploads/2022/06/icegif-116.gif"), url("/images/main-bg-bottom.png");
+  background-size: 1100px, 950px;
+  background-repeat: repeat;
+  background-position: left top, right bottom;
+  color: black;
+  font-family: Verdana;
+}
+
+/*div {
+  border:1px solid black;
+}*/
+
+tr, th, td {
+  text-align:left;
+  padding:10px;
+}
+
+h1 {
+  color: #021604;
+}
+
+h2 {
+  color: #FFFFFF;
+}
+
+h3 {
+  color: #124a0c;
+}
+
+h4 {
+  color: #3e6b43;
+}
+
+h5{
+  color: #527f57;
+}
+
+h6 {
+  color: #618c67;
+}
+
+/*CUSTOM RULES*/
+
+/*use for site warnings*/
+.warning {
+  border-left-style: solid;
+  border-left-color: #edac2a;
+  border-left-width: 10px;
+  background-color: #ffe8bc;
+  padding: 15px;
+}
+
+/*use for blog posts*/
+.blog-post {
+  border-left-style: solid;
+  border-left-color: #1a5221;
+  border-left-width: 10px;
+  background-color: #dcedda;
+  padding: 15px;
+}
+
+.content {
+  background-color: White;
+  border-radius:10px;
+  padding: 20px;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.child{
+  padding: 25px 0;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.left-sidebar {
+  margin-right: 35px;
+}
+
+.left-sidebar > iframe {
+  max-width: 200px;
+  min-height: 770px;
+  border: none;
+}
+
+.last-updated {
+  margin-top:10px;
+}
+
+.flex {
+  display: flex;
+  margin:25px;
+}
+
+/*Used for the picture on the main page*/
+.bigpic {
+  margin: 20px;
+}
+
+/*use for page decorations*/
+.image-container {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 850px) {
+  .flex {
+    display: flex;
+    margin:25px;
+    flex-wrap: wrap;
+  }
+  
+  .left-sidebar {
+    width:100%;
+    margin: 0px;
+    margin-bottom: 35px;
+  }
+
+  .left-sidebar > iframe {
+    min-width: 100%;
+    min-height: 200px;
+    border: none;
+  }
+
+
+}
+        .GeneratedMarquee {
+            font-family: 'Comic Sans MS';
+            font-size: 1em;
+            font-style: italic;
+            line-height: 1em;
+            color: #CC00CC;
+            background-color: #66FFFF;
+            padding: 0.5em;
+        }
+.d1 {
+  background-color: #8B008B;
+  border-radius:10px;
+  padding: 20px;
+  color: white;
+  Text-align:center;
+  Width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+h1 {
+  color: white;
+}
+a {
+  color: cyan;
+}
+a:hover {
+  color: blue; /* Color on hover */
+}
+
+img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin: 20px;
+            border-radius: 0px;
+        }
+
+}
+
+.d2 {
+background-image: url('https://i.giphy.com/l2JhIoj7mhZgOu1xe.webp'); no-repeat center center fixed;
+            background-size: cover;
+  border-radius:10px;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  Text-align:center;
+  Text-align:center;
+  Width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+h1 {
+  color: white;
+}
+}
+
+.d3 {
+  background-color: #90EE90;
+  border-radius:10px;
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  Text-align:center;
+  Text-align:center;
+  Width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+h1 {
+  color: white;
+}
+}
+
