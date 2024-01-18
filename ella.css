@@ -1,0 +1,26 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/254/537/large_2x/light-mint-pastel-green-watercolor-texture-background-free-photo.jpg");
+  background-size: 1100px, 950px;
+  background-repeat: repeat;
+  background-position: left top, right bottom;
+  color: black;
+}
+h1 {
+  color: #013220;
+  text-align:center;
+}
+.d1 {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+img {
+            width: 350px;
+            max-width: 90%;
+            height: auto;
+            margin: 5px;
+            border-radius: 0px;
+        }
+
+}
+}
