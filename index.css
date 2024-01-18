@@ -166,7 +166,7 @@ a:hover {
   color: blue; /* Color on hover */
 }
 
-img {
+.img {
             width: 200px;
             max-width: 90%;
             height: 275px;
