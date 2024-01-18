@@ -126,6 +126,27 @@ h6 {
     min-height: 200px;
     border: none;
   }
+  .d1 img {
+    width: 100px;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
+  .d2 img {
+    width: 100px;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
+  .d3 img {
+    width: 100px;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
 
 
 }
@@ -207,4 +228,3 @@ img {
             max-width: 90%;
 }
 }
-
