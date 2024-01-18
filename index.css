@@ -126,22 +126,10 @@ h6 {
     min-height: 200px;
     border: none;
   }
-  .d1 img {
-    width: 100px;
-    max-width: 90%;
-    height: auto;
-    margin: 5px;
-    border-radius: 0px;
-  }
-  .d2 img {
-    width: 100px;
-    max-width: 90%;
-    height: auto;
-    margin: 5px;
-    border-radius: 0px;
-  }
+  .d1 img,
+  .d2 img,
   .d3 img {
-    width: 100px;
+    width: 100%;
     max-width: 90%;
     height: auto;
     margin: 5px;
