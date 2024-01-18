@@ -51,6 +51,13 @@ h6 {
   background-color: #ffe8bc;
   padding: 15px;
 }
+img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 20px;
+            border-radius: 0px;
+        }
 
 /*use for blog posts*/
 .blog-post {
@@ -157,9 +164,9 @@ a:hover {
   color: blue; /* Color on hover */
 }
 
-img {
+.img {
             width: 100%;
-            max-width: 200px;
+            max-width: 250px;
             height: auto;
             margin: 20px;
             border-radius: 0px;
