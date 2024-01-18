@@ -158,10 +158,10 @@ a:hover {
 }
 
 img {
-            width: 100%;
+            width: 200px;
             max-width: 90%;
-            height: auto;
-            margin: 20px;
+            height: 275px;
+            margin: 5px;
             border-radius: 0px;
         }
 
@@ -182,6 +182,10 @@ background-image: url('https://i.giphy.com/l2JhIoj7mhZgOu1xe.webp'); no-repeat c
 h1 {
   color: white;
 }
+img {
+            width: auto;
+            max-width: 90%;
+}
 }
 
 .d3 {
@@ -197,6 +201,10 @@ h1 {
   margin-right: auto;
 h1 {
   color: white;
+}
+img {
+            width: auto;
+            max-width: 90%;
 }
 }
 
