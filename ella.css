@@ -1,3 +1,8 @@
+@media screen and (max-width: 850px) {
+  .d1 img {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+    width: auto;
+  }
 body {
   background-color: #FFFFFF;
   background-image: url("https://static.vecteezy.com/system/resources/previews/002/254/537/large_2x/light-mint-pastel-green-watercolor-texture-background-free-photo.jpg");
@@ -47,9 +52,5 @@ h1 {
         }
 }
 
-@media screen and (max-width: 850px) {
-  .d1 img {
-    max-width: 90%; /* Adjust max-width for smaller screens */
-    width: auto;
-  }
+
 
