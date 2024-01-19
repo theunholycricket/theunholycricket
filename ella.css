@@ -48,12 +48,8 @@ img {
 }
 
 @media screen and (max-width: 850px) {
- .d1 img,
-  .d2 img,
-  .d3 img {
+  .d1 img {
+    max-width: 250px; /* Adjust max-width for smaller screens */
     width: 100%;
-    max-width: 250px;
-    height: auto;
-    margin: 5px;
-    border-radius: 0px;
+  };
   }
