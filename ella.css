@@ -6,6 +6,14 @@ body {
   background-position: left top, right bottom;
   color: black;
 }
+.body2 {
+  background-color: #FFFFFF;
+  background-image: url("https://cdn.wallpapersafari.com/83/94/hcvdU0.gif");
+  background-size: 1100px, 950px;
+  background-repeat: repeat;
+  background-position: left top, right bottom;
+  color: black;
+}
 h1 {
   color: #013220;
   text-align:center;
