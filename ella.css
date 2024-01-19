@@ -51,7 +51,7 @@ img {
  .d1 img,
   .d2 img,
   .d3 img {
-    width: 100%;
+    width: 250px;
     max-width: 90%;
     height: auto;
     margin: 5px;
