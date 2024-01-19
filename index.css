@@ -1,11 +1,11 @@
 body {
   background-color: #FFFFFF;
-  background-image: url("https://www.icegif.com/wp-content/uploads/2022/06/icegif-116.gif"), url("/images/main-bg-bottom.png");
+  background-image: url("https://i.pinimg.com/originals/ce/31/0c/ce310c2f68850080fdcd49f5275e8416.gif"), url("/images/main-bg-bottom.png");
   background-size: 1100px, 950px;
   background-repeat: repeat;
   background-position: left top, right bottom;
   color: black;
-  font-family: Verdana;
+  font-family: Courier New;
 }
 
 /*div {
@@ -22,11 +22,11 @@ h1 {
 }
 
 h2 {
-  color: #FFFFFF;
+  color: #FDE5FF;
 }
 
 h3 {
-  color: #124a0c;
+  color: #623DA0;
 }
 
 h4 {
@@ -148,72 +148,131 @@ h6 {
             padding: 0.5em;
         }
 .d1 {
-  background-color: #8B008B;
-  border-radius:10px;
+  background-color: #FDE5FF;
+  margin: auto;
+  border-style: solid;
+  border-radius:2px;
+  border-color: #623DA0;
   padding: 20px;
-  color: white;
+  color: #623DA0;
   text-align:center;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 h1 {
   color: white;
 }
 a {
-  color: cyan;
+  color: #623DA0;
 }
 a:hover {
   color: blue; /* Color on hover */
 }
 
 .img {
-            width: 200px;
+            width: 100px;
             max-width: 90%;
-            height: 275px;
+            height: 150px;
             margin: 5px;
             border-radius: 0px;
+ 	    border-width:9px;
+            border-style:solid;
+            border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
         }
 
 }
 
 .d2 {
-background-image: url('https://i.giphy.com/l2JhIoj7mhZgOu1xe.webp'); no-repeat center center fixed;
+background-image: url('https://64.media.tumblr.com/96132909cf7afb2cc598575638094aff/10099423bfa3d426-5d/s400x600/5fb3b30cec21c36f7a57e6298fab1d6a30f99c8b.gif'); no-repeat center center fixed;
             background-size: cover;
-  border-radius:10px;
+  border-style: solid;
+  border-radius:2px;
+  border-color: #623DA0;
   padding: 20px;
   font-size: 16px;
   color: white;
   text-align:center;
   text-align:center;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 h1 {
   color: white;
 }
 img {
             width: auto;
             max-width: 90%;
+ 	    border-width:9px;
+            border-style:solid;
+            border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
 }
 }
 
 .d3 {
-  background-color: #90EE90;
-  border-radius:10px;
+  background-color: #FDE5FF;
+  border-style: solid;
+  border-radius:2px;
+  border-color: #623DA0;
   padding: 20px;
   font-size: 16px;
   color: white;
   text-align:center;
   text-align:center;
-  width: 80%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 h1 {
   color: white;
 }
 img {
             width: auto;
             max-width: 90%;
+ 	    border-width:9px;
+            border-style:solid;
+            border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
 }
 }
+.container{
+  border-width:9px;
+  border-style:solid;
+  border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.btn {
+  background: #e5f3fc;
+  background-image: -webkit-linear-gradient(top, #e5f3fc, #d1edff);
+  background-image: -moz-linear-gradient(top, #e5f3fc, #d1edff);
+  background-image: -ms-linear-gradient(top, #e5f3fc, #d1edff);
+  background-image: -o-linear-gradient(top, #e5f3fc, #d1edff);
+  background-image: linear-gradient(to bottom, #e5f3fc, #d1edff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #623DA0;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #623DA0 2px;
+  text-decoration: none;
+  margin:10px;
+}
+
+.btn:hover {
+  background: #d970e0;
+  background-image: -webkit-linear-gradient(top, #d970e0, #c834d9);
+  background-image: -moz-linear-gradient(top, #d970e0, #c834d9);
+  background-image: -ms-linear-gradient(top, #d970e0, #c834d9);
+  background-image: -o-linear-gradient(top, #d970e0, #c834d9);
+  background-image: linear-gradient(to bottom, #d970e0, #c834d9);
+  text-decoration: none;
+}
+    
+
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur8.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur8.png), auto !important;} /* End https://www.cursors-4u.com */
