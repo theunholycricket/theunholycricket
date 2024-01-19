@@ -51,5 +51,8 @@ img {
   .d1 img {
     max-width: 250px; /* Adjust max-width for smaller screens */
     width: 100%;
-  };
+  }
+  .d1 {
+    width: 100%;
+    max-width: 100%;
   }
