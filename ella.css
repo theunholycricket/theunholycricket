@@ -47,7 +47,7 @@ img {
         }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
  .d1 img,
   .d2 img {
     width: 100%;
