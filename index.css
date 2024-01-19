@@ -135,11 +135,13 @@ h6 {
     margin: 5px;
     border-radius: 0px;
   }
-.btn {    width: 100%;
+.btn {    
+    width: 100%;
     max-width: 90%;
     height: auto;
     margin: 5px;
     border-radius: 0px;
+    font-size: 10px;
 }
 	
 
