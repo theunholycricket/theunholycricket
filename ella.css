@@ -6,6 +6,7 @@ body {
   background-position: left top, right bottom;
   color: black;
 }
+
 .body2 {
   background-color: #FFFFFF;
   background-image: url("https://images.thdstatic.com/productImages/22decb1a-e7ec-4b50-8102-6e50670f60be/svn/brewster-wallpaper-samples-499-20003sam-64_600.jpg");
@@ -31,7 +32,6 @@ img {
             margin: 5px;
             border-radius: 0px;
         }
-
 }
 
 .d2 {
@@ -57,4 +57,4 @@ img {
     margin: 5px;
     border-radius: 0px;
   }
-}
+
