@@ -8,8 +8,8 @@ body {
 }
 .body2 {
   background-color: #FFFFFF;
-  background-image: url("https://cdn.wallpapersafari.com/83/94/hcvdU0.gif");
-  background-size: 1100px, 950px;
+  background-image: url("https://images.thdstatic.com/productImages/22decb1a-e7ec-4b50-8102-6e50670f60be/svn/brewster-wallpaper-samples-499-20003sam-64_600.jpg");
+  background-size: 25%;
   background-repeat: repeat;
   background-position: left top, right bottom;
   color: black;
@@ -47,9 +47,10 @@ img {
         }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 850px) {
  .d1 img,
-  .d2 img {
+  .d2 img,
+  .d3 img {
     width: 100%;
     max-width: 90%;
     height: auto;
