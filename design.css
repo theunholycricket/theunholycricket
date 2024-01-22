@@ -265,7 +265,7 @@
  .container {
   position: absolute;
   margin: auto;
-  width: 90%;
+  width: 95%;
   padding: 0px;
   box-sizing: border-box;
  }
@@ -275,7 +275,7 @@
   margin: auto;
   margin-bottom: 10px;
   height: 105px;
-  width: 80%;
+  width: 90%;
   padding: 0px;
   background-image: url('assets/bannerimg.gif');
   Background-size: 100%;
@@ -288,7 +288,7 @@
   margin-right: auto;
   margin-left: auto;
   height: 22px;
-  width: 80%;
+  width: 90%;
   padding: 0px;
   background: #7a82cf;
   border: 1px solid #a9744c;
@@ -298,7 +298,7 @@
  #flex {
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 90%;
   height: 700px;
   box-sizing: border-box;
  }
@@ -326,7 +326,7 @@
  }
 
  aside {
-  width: 15%;
+  width: 20%;
   padding: 0px;
   border: 0px solid #000000;
   box-sizing: border-box;
@@ -335,14 +335,14 @@
 
  #nav {
   order: 2;
-  width: 15%;
+  width: 20%;
   padding: 0px;
   margin-left: 10px;
   text-align: left;
  }
  
  .audio2 {
- width:15%; 
+ width:20%; 
  height:20px; 
  margin-top:6px; 
  margin-bottom:6px; 
@@ -365,13 +365,13 @@
  }
   h1 {
   font-family: "header";
-  font-size: 12px;
+  font-size: 10px;
   color: #7a82cf;
  }
 
  h2 {
   font-family: "bold";
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1.2px;
   word-spacing: 1px;
   color: #7a82cf;
