@@ -345,13 +345,14 @@
  margin: auto;
 }
 
-.img2 {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 5px;
-    border-radius: 0px;
-  }
+ .avatar {
+  background: #ffffff;
+  width: 197px;
+  max-width: 100%;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  overflow-x: hidden;
+ }
   .charm {
   position: relative;
   top: -5px;
