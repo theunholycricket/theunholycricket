@@ -312,6 +312,7 @@
   background: #ffffff;
   border: 1px solid #a9744c;
   box-sizing: border-box;
+  overflow: hidden;
  }
 
  aside {
