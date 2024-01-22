@@ -337,3 +337,11 @@
  margin-bottom:6px; 
  margin: auto;
 }
+
+.img2 {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
