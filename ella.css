@@ -47,7 +47,7 @@ img {
         }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
  .d1 img,
   .d2 img,
   .d3 img {
@@ -58,6 +58,6 @@ img {
     border-radius: 0px;
   }
   p {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
   }
 }
