@@ -116,6 +116,13 @@
   margin-left: 10px;
   text-align: left;
  }
+.frame {
+ name: "main";
+ frameborder: "0";
+ width: "870";
+ height: "680px";
+ padding: "5px";
+}
 
 /* Sections */
  section {
@@ -307,3 +314,10 @@
   margin-left: 10px;
   text-align: left;
  }
+ .frame {
+ name: "main";
+ frameborder: "0";
+ width: 90%;
+ height: "680px";
+ padding: "5px";
+}
