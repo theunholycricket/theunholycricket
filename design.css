@@ -163,6 +163,13 @@
   top: -5px;
   left: 64px;
  }
+.img2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
 
 /* Audio Player */
  audio::-webkit-media-controls-panel {
@@ -340,9 +347,15 @@
 
 .img2 {
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     margin: 5px;
     border-radius: 0px;
   }
+  .charm {
+  position: relative;
+  top: -5px;
+  left: 64px;
+  max-width: 50px;
+ }
 }
