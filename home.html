@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURTNEYS WEBSITE</title>
+
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+
+    <link href="index.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+
+      /*Page specific stuff*/
+      .webring-flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+    </style>
+
+<script type="text/javascript">
+// <![CDATA[
+var colours=new Array('#99a2e8', '#a463ff', '#d078f0', '#f078d6', '#78ccf0', '#457ded'); // colours of the hearts
+var minisize=16; // smallest size of hearts in pixels
+var maxisize=25; // biggest size of hearts in pixels
+var hearts=66; // maximum number of hearts on screen
+var over_or_under="over"; // set to "over" for hearts to always be on top, or "under" to allow them to float behind other objects
+
+/*****************************
+*JavaScript Love Heart Cursor*
+*  (c)2013+ mf2fm web-design *
+*   http://www.mf2fm.com/rv  *
+*  DON'T EDIT BELOW THIS BOX *
+*****************************/
+var x=ox=400;
+var y=oy=300;
+var swide=800;
+var shigh=600;
+var sleft=sdown=0;
+var herz=new Array();
+var herzx=new Array();
+var herzy=new Array();
+var herzs=new Array();
+var kiss=false;
+
+if (typeof('addRVLoadEvent')!='function') function addRVLoadEvent(funky) {
+  var oldonload=window.onload;
+  if (typeof(oldonload)!='function') window.onload=funky;
+  else window.onload=function() {
+    if (oldonload) oldonload();
+    funky();
+  }
+}
+
+addRVLoadEvent(mwah);
+
+function mwah() { if (document.getElementById) {
+  var i, heart;
+  for (i=0; i<hearts; i++) {
+    heart=createDiv("auto", "auto");
+    heart.style.visibility="hidden";
+	heart.style.zIndex=(over_or_under=="over")?"1001":"0";
+    heart.style.color=colours[i%colours.length];
+	heart.style.pointerEvents="none";
+    if (navigator.appName=="Microsoft Internet Explorer") heart.style.filter="alpha(opacity=75)";
+    else heart.style.opacity=0.75;
+    heart.appendChild(document.createTextNode(String.fromCharCode(9829)));
+    document.body.appendChild(heart);
+    herz[i]=heart;
+	herzy[i]=false;
+  }
+  set_scroll();
+  set_width();
+  herzle();
+}}
+
+function herzle() {
+  var c;
+  if (Math.abs(x-ox)>1 || Math.abs(y-oy)>1) {
+    ox=x;
+    oy=y;
+    for (c=0; c<hearts; c++) if (herzy[c]===false) {
+	  herz[c].firstChild.nodeValue=String.fromCharCode(9829);
+      herz[c].style.left=(herzx[c]=x-minisize/2)+"px";
+      herz[c].style.top=(herzy[c]=y-minisize)+"px";
+      herz[c].style.fontSize=minisize+"px";
+	  herz[c].style.fontWeight='normal';
+      herz[c].style.visibility='visible';
+      herzs[c]=minisize;
+      break;
+    }
+  }
+  for (c=0; c<hearts; c++) if (herzy[c]!==false) blow_me_a_kiss(c);
+  setTimeout("herzle()", 40);
+}
+
+document.onmousedown=pucker;
+document.onmouseup=function(){clearTimeout(kiss);};
+
+function pucker() {
+  ox=-1;
+  oy=-1;
+  kiss=setTimeout('pucker()', 100);
+}
+
+function blow_me_a_kiss(i) {
+  herzy[i]-=herzs[i]/minisize+i%2;
+  herzx[i]+=(i%5-2)/5;
+  if (herzy[i]<sdown-herzs[i] || herzx[i]<sleft-herzs[i] || herzx[i]>sleft+swide-herzs[i]) {
+    herz[i].style.visibility="hidden";
+    herzy[i]=false;
+  }
+  else if (herzs[i]>minisize+2 && Math.random()<.5/hearts) break_my_heart(i);
+  else {
+    if (Math.random()<maxisize/herzy[i] && herzs[i]<maxisize) herz[i].style.fontSize=(++herzs[i])+"px";
+    herz[i].style.top=herzy[i]+"px";
+    herz[i].style.left=herzx[i]+"px";
+  }
+}
+
+function break_my_heart(i) {
+  var t;
+  herz[i].firstChild.nodeValue=String.fromCharCode(9676);
+  herz[i].style.fontWeight='bold';
+  herzy[i]=false;
+  for (t=herzs[i]; t<=maxisize; t++) setTimeout('herz['+i+'].style.fontSize="'+t+'px"', 60*(t-herzs[i]));
+  setTimeout('herz['+i+'].style.visibility="hidden";', 60*(t-herzs[i]));
+}
+
+document.onmousemove=mouse;
+function mouse(e) {
+  if (e) {
+    y=e.pageY;
+    x=e.pageX;
+  }
+  else {
+    set_scroll();
+    y=event.y+sdown;
+    x=event.x+sleft;
+  }
+}
+
+window.onresize=set_width;
+function set_width() {
+  var sw_min=999999;
+  var sh_min=999999;
+  if (document.documentElement && document.documentElement.clientWidth) {
+    if (document.documentElement.clientWidth>0) sw_min=document.documentElement.clientWidth;
+    if (document.documentElement.clientHeight>0) sh_min=document.documentElement.clientHeight;
+  }
+  if (typeof(self.innerWidth)=='number' && self.innerWidth) {
+    if (self.innerWidth>0 && self.innerWidth<sw_min) sw_min=self.innerWidth;
+    if (self.innerHeight>0 && self.innerHeight<sh_min) sh_min=self.innerHeight;
+  }
+  if (document.body.clientWidth) {
+    if (document.body.clientWidth>0 && document.body.clientWidth<sw_min) sw_min=document.body.clientWidth;
+    if (document.body.clientHeight>0 && document.body.clientHeight<sh_min) sh_min=document.body.clientHeight;
+  }
+  if (sw_min==999999 || sh_min==999999) {
+    sw_min=800;
+    sh_min=600;
+  }
+  swide=sw_min;
+  shigh=sh_min;
+}
+
+window.onscroll=set_scroll;
+function set_scroll() {
+  if (typeof(self.pageYOffset)=='number') {
+    sdown=self.pageYOffset;
+    sleft=self.pageXOffset;
+  }
+  else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
+    sdown=document.body.scrollTop;
+    sleft=document.body.scrollLeft;
+  }
+  else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+    sleft=document.documentElement.scrollLeft;
+    sdown=document.documentElement.scrollTop;
+  }
+  else {
+    sdown=0;
+    sleft=0;
+  }
+}
+
+function createDiv(height, width) {
+  var div=document.createElement("div");
+  div.style.position="absolute";
+  div.style.height=height;
+  div.style.width=width;
+  div.style.overflow="hidden";
+  div.style.backgroundColor="transparent";
+  return (div);
+}
+// ]]>
+</script>
+
+
+</head>
+<body>
+<div class="container">
+
+
+<div class="d1">
+         <p style="margin: auto;font-family: 'Press Start 2P',text-shadow: 1px 2px 2px rgba(255,169,226,0.94); font-size: 20px; position: relative; color:rgba(250, 250, 250, 1); text-align: center; padding:5px; background-image:url('https://64.media.tumblr.com/9df37ec6fa3e1574b01db1243be84586/tumblr_oov9y9OgMA1vciijao1_400.gif');  background-size: 1100px, 950px;
+  background-repeat: repeat; border: 2px solid #623DA0;border-radius: 2px;"> 
+
+<!-- https://64.media.tumblr.com/3f5e0146df8df02d0bc61b8e2f92c4de/a7309d054ce03ac4-5f/s540x810/333cbe3c266add28dddb9c57455802a3f09fc5c4.gif-->
+
+            <img src="https://pngimg.com/d/rubber_duck_PNG54.png" width=20px height=20px>
+            <span id="wipe"> Welcome To My Website </span>
+            <img src="https://pngimg.com/d/rubber_duck_PNG54.png" width=20px height=20px>
+ <p><b>WHERE I CAN SAY WHATEVER I WANT</b></p>
+<p> NOT OPTIMIZED FOR MOBILE GET ON UR COMPUTER PLZ </p>
+<img src="https://st2.depositphotos.com/1001911/9950/v/450/depositphotos_99502816-stock-illustration-vector-sneaky-emoticon.jpg"
+                alt="Sneaky Emoticon" class="img">
+<img src="https://cdn.vectorstock.com/i/preview-1x/70/44/pleasing-emoticon-vector-10187044.jpg"
+                alt="Sneaky Emoticon"class="img">
+<img src="https://i.pinimg.com/170x/d8/eb/f8/d8ebf87f13c83fd775fe8c8ce663f0e8.jpg"
+                alt="Sneaky Emoticon"class="img">
+  <p><h1><a href="oregon.html">I Went To Beaverton Oregon Summer 2023</a></p>
+    <a href="me.html"> <button class="btn">  learn about me </button></a>
+</div>
+
+<div class="d2">
+<p><h2> I am exhausted from pretending to know how to do things. </h2></p>
+    <a href="songlyrics.html">
+      <button width=100 height=10>Click Here To See My Favorite Song Lyrics</button>
+    </a></br>
+           <a href="https://en.wikipedia.org/wiki/Boiling_frog"> <img src="https://media.licdn.com/dms/image/C4E12AQGi1sFcuM1V2Q/article-cover_image-shrink_600_2000/0/1550766745143?e=2147483647&v=beta&t=dD_YlDFuUJ5ie0tL2dQNOxw2s55Gsl9XiWaQTsQXO0A"
+                alt="Profile Image" width="150" height="115"> </a>
+
+            <audio controls>
+                <source src="https://cdn.pixabay.com/audio/2023/10/07/audio_07bc34d085.mp3">
+                Your browser does not support the audio element.
+            </audio>
+<img src="https://pbs.twimg.com/profile_images/791662473975730177/MudsyJi9_400x400.jpg"
+                alt="Profile Image" width="150" height="115"> <p>
+
+
+    <a href="ella.html"> <button class="btn">  learn about my friend Ella</button></a>
+    <a href="kara.html"> <button class="btn">  learn about my friend Kara</button></a>
+
+<p>
+
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/6OUJSypqogWues7aXgLuyc?utm_source=generator" width="80%" height="100"
+            frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+
+</div>
+<div>
+    <!-- Marquee -->
+    <marquee class="GeneratedMarquee" direction="left" scrollamount="14" behavior="scroll">THEY ARE COMING TO GET ME
+        AND I DONT HAVE MUCH TIME LEFT BUT BEFORE I GO PLEASE TELL ME A SECRET</marquee>
+</div>
+<div class="d3">
+
+<iframe src="https://www3.cbox.ws/box/?boxid=3534929&boxtag=6o5lT5" width="60%" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+
+    <p>
+        <img src='https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/410902305_3255900704715328_2804418100752416188_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=D-oe3zOVTFwAX8GB_C0&_nc_ht=scontent-atl3-2.xx&oh=00_AfDk2RGSJ_U53ZMOFKeoIOm3VR4RAGc5npGSFMBBmo8i_Q&oe=65AD4A65' width=100 height=100>
+        <span style="color: red; font-size: 20px;"><- that's me btw </font>
+        <img src='https://images3.teeshirtpalace.com/images/productImages/ilm9984792-i-love-microplastics-dank-meme-funny-viral-quote-trendy--black-fbth-garment.webp?width=700' width=115 height=115></font>
+    </p>
+
+    <span style="color: blue; font-size: 20px;">  I have free will and can create as many websites as my heart desires. I really hope you are enjoying my content, you have no obligation to observe. I hear it is best to connect with your audience to hook them in. What is your name? How was your day? Whats been on your mind? Really? me too. I think about that a lot, I feel the same way. Along with lots other things. I always have a lot to say. Yap yap yap. I try to keep most of it to myself but I overflow quite often. None of it is very important though, you can go ahead and move along. It was nice running into you. </font> <p>
+<img src="https://i2.wp.com/webstockreview.net/images/candyland-clipart-candyland-character-1.jpg" width=60%>
+
+</div>
+
+<div class="d2">
+<h2> if you were a rock what kind would you be? I think I'd be sedimentary but I prefer not to disclose why </h2>
+<img src="https://sciencenotes.org/wp-content/uploads/2023/08/Rock-Cycle.png" width="800" height="500">
+</div>
+
+
+
+<div class="d3">
+<img src='https://www.successfactor.co.nz/wp-content/uploads/2019/02/Reality-Check-13-Feb-19.jpg' class="img">
+<p> 
+<h3> How much are you willing to risk? How much do you have to lose? </h3></p>
+<img src='https://media0.giphy.com/media/PSQ2a4WVFn2q7BhaBv/giphy.gif?cid=ecf05e47ya0v512ojaow6tz6p09oc84oj8eoi6d2im1fe20j&ep=v1_stickers_search&rid=giphy.gif&ct=s'width=250>
+
+<div style="width:100%; overflow: auto;">
+<script src="https://cdn.htmlgames.com/embed.js?game=CasinoBlackjack&amp;bgcolor=white"></script>
+</div>
+
+</div>
+
+
+<div class="d3">
+<h3> This is where I was born if you were wondering </h3>
+<img src='https://townmapsusa.com/images/maps/map_of_midlothian_va.jpg'class="img">
+
+ <h3>
+<p> SIGNING OFF </p>
+<p> UNHOLYCRICKET </p>
+<p> UNHOLCYRICKET </p>
+<p> UNHOLCEYRICKT </p>
+<p> UHOLCNEYRICKT </p>
+<p> UHOLCNEYKRICT </p>
+<p> UOLCNEYKRICTH </p>
+<p> CUOLNEYKRICTH </p>
+<p> CUONEYKLRICTH </p>
+<p> CUORNEYKLICTH </p>
+<p> CUORTNEYKLICH </p>
+<p> COURTNEYKLICH </p>
+</h3>
+</br>
+        <a href="https://aliceandkev.wordpress.com/"> <p> click here to read the most tragic story of the 2000's</p></a>
+<img src="http://dl.glitter-graphics.net/pub/1055/1055571zjb59rbch9.gif" width=400 height=50 border=0 class="img2">
+</div>
+</div>
+
+</body>
+</html>
