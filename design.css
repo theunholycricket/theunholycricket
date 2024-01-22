@@ -234,3 +234,41 @@ Background-size: 100%;
   background-color: #fed1de;
   font-style: italic;
  }
+
+@media screen and (max-width: 850px) {
+  .flex {
+    display: flex;
+    margin:25px;
+    flex-wrap: wrap;
+  }
+  
+  .left-sidebar {
+    width:100%;
+    margin: 0px;
+    margin-bottom: 35px;
+  }
+
+  .left-sidebar > iframe {
+    min-width: 100%;
+    min-height: 200px;
+    border: none;
+  }
+  .d1 img,
+  .d2 img,
+  .d3 img {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
+.btn {    
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+    font-size: 10px;
+}
+	
+}
