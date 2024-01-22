@@ -145,8 +145,8 @@ h6 {
 }
 	
 
-
 }
+
         .GeneratedMarquee {
             font-family: 'Comic Sans MS';
             font-size: 1em;
@@ -236,13 +236,14 @@ img {
 h1 {
   color: white;
 }
-img {
+.img {
             width: auto;
             max-width: 90%;
  	    border-width:9px;
             border-style:solid;
             border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
 }
+
 }
 .container{
   border-width:9px;
@@ -251,6 +252,7 @@ img {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 
