@@ -111,46 +111,6 @@ h6 {
 /* media screen start */
 
 
-@media screen and (max-width: 850px) {
-  .flex {
-    display: flex;
-    margin:25px;
-    flex-wrap: wrap;
-  }
-  
-  .left-sidebar {
-    width:100%;
-    margin: 0px;
-    margin-bottom: 35px;
-  }
-
-  .left-sidebar > iframe {
-    min-width: 100%;
-    min-height: 200px;
-    border: none;
-  }
-  .d1 img,
-  .d2 img,
-  .d3 img {
-    width: 100%;
-    max-width: 90%;
-    height: auto;
-    margin: 5px;
-    border-radius: 0px;
-  }
-.btn {    
-    width: 100%;
-    max-width: 90%;
-    height: auto;
-    margin: 5px;
-    border-radius: 0px;
-    font-size: 10px;
-}
-	
-
-}
-
-/* media screen end */
 
         .GeneratedMarquee {
             font-family: 'Comic Sans MS';
@@ -250,7 +210,7 @@ h1 {
 }
 
 }
-.container{
+#container{
   border-width:9px;
   border-style:solid;
   border-image: url("https://cdn.discordapp.com/attachments/904308736712138793/995929957790388284/image_copy.png") 7 fill round;
@@ -289,6 +249,59 @@ h1 {
   background-image: linear-gradient(to bottom, #d970e0, #c834d9);
   text-decoration: none;
 }
-    
+
+@media screen and (max-width: 850px) {
+#container{
+  border-width:0px;
+  width: 80%;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+  .flex {
+    display: flex;
+    margin:25px;
+    flex-wrap: wrap;
+  }
+
+.headimg {
+max-width:10%;
+}
+  
+  .left-sidebar {
+    width:100%;
+    margin: 0px;
+    margin-bottom: 35px;
+  }
+
+  .left-sidebar > iframe {
+    min-width: 100%;
+    min-height: 200px;
+    border: none;
+  }
+  .d1 .img,
+  .d2 img,
+  .d3 img {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+  }
+
+.btn {    
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 5px;
+    border-radius: 0px;
+    font-size: 10px;
+}
+	
+
+}
+
+/* media screen end */
+
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur8.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur8.png), auto !important;} /* End https://www.cursors-4u.com */
