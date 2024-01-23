@@ -6,17 +6,17 @@
 
  @font-face {
   font-family: "normal";
-  src: url("https://hungrylass.neocities.org/fonts/Comfortaa-Regular.ttf") format("truetype");
+  src: "assets/Comfortaa-Regular.ttf" format("truetype");
  }
 
  @font-face {
   font-family: "bold";
-  src: url("https://hungrylass.neocities.org/fonts/Comfortaa-Bold.ttf") format("truetype");
+  src: "assets/Comfortaa-Bold.ttf" format("truetype");
  }
 
  @font-face {
   font-family: "light";
-  src: url("https://hungrylass.neocities.org/fonts/Comfortaa-Light.ttf") format("truetype");
+  src: "assets/Comfortaa-Light.ttf" format("truetype");
  }
 
 /* Base */
