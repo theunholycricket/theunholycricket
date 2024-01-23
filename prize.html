@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prize Machine by the Unholy Cricket</title>
+
+    <script src="/tinkerbell.js"></script>
+    <script src="/rainbowtext.js"></script>
+  </head>
+  <body>
+<style>
+
+            body {
+                font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+                margin: 0;
+                /* you can delete the line below if you'd prefer to not use an image */
+                background-image: url('https://cur.glitter-graphics.net/pub/3690/3690287skrt8a5xxc.jpg');
+                background-size: cover;
+                background-repeat: repeat;
+                background-attachment: fixed;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* below this line is CSS for the layout */
+
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
+
+
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 70%;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: black;
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+            main {
+                background-color: white;
+                flex: 1;
+                padding: 5px;
+                order: 2;
+                border:3px solid black;
+                border-radius:10px;
+            }
+            /* ===== Scrollbar CSS ===== */
+  /* Chrome, Edge, and Safari */
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #3800fe;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #6bfffd;
+    border-radius: 2px;
+    border: 2px outset #a333ff;
+  }
+        </style>
+        <center><img src="https://text.media.giphy.com/v1/media/giphy.gif?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJwcm9kLTIwMjAtMDQtMjIiLCJzdHlsZSI6InJhbnNvbSIsInRleHQiOiJVTkhPTFklMjBDUklDS0VUJ1MlMjBQUklaRSUyME1BQ0hJTkUiLCJwYWxldHRlIjoiMSwwLDEsNiwwLDAsMiw1LDQsMiwwLDAsMiwxLDEsMiwyLDQsMiwwLDIsNiwxLDAsMCw2LDIiLCJpYXQiOjE3MDYwMzcyMzJ9.4KnKvYaAlbABex4qkPH_fCVfbB1mSdGVhZzhdbh3J60&cid=a559de6bde7df26a4a84b9482af84bba8ed02491d1c76d7d&dynamic_style=ransom&ep=v1_text_animate&rid=giphy.gif&ct=t"></center>
+<div id="container">
+<main style="height: 775px">
+<center>
+<img src="https://m.media-amazon.com/images/I/61dFeCc72+L._AC_UF894,1000_QL80_.jpg" style="height:375px">
+
+
+<div style="position:relative; float:right; margin-right:5%; height:375px; width:300px; border:3px solid black; border-radius:10px;">
+
+
+<p>This is Unholy Cricket's PRIZE MACHINE! It's full of lots of fun things for you to discover! Can you collect them all?</p>
+
+
+<p><span style="color:limegreen">COMMON</span> PRIZES: 10</p>
+<p><span style="color:yellow">UNCOMMON</span> PRIZES: 8</p>
+<p><span style="color:cyan">RARE</span> PRIZES: 6</p>
+<p><span style="color:purple">EPIC</span> PRIZES: 4</p>
+<p><span style="color:red">LEGENDARY</span> PRIZES: 2</p>
+<p><span id="rainbow">TOTAL</span> PRIZES: 30</p>
+</div>
+</center>
+<center>
+</center>
+<center>
+<button onclick="newPrize()" type="button">Try your luck!</button>
+<script src="prizes.js"></script>
+<div id="prizeDisplay">
+    <!-- Prizes will display here -->
+
+</div>
+</center>
+</main>
+</div>
+  </body>
+</html>
