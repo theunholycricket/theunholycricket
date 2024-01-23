@@ -5,7 +5,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won an AMONG US PLUSHIE!</p><p><img src="/prizemachine/common/among.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p><p>What kind of tasks will you do with your new not-suspicious-at-all friend?</p>',
 
-  '<p>Congratulations! You\'ve won RED CABBAGE</p><p><img src="assets/prize/cabbage.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p><p> Very nutritious!</p> <p><small><small><small>0:35:906CCcFF43BF30bB4D4.6878;E3B4^BBA120^FbE^DrE9a4FB940FD^2^690FB9b85800;93B03bF32DFcb93dF4c1F:BDB84==413D10C:7:14CF2C:a16:a6233a06:32aCh=:<a;aBB;2FFc3:33Ca=40B:<1=a7aBC1C5::Fm;3628EEFC^^bFa7F33C-A3Ca83F6bF917Eb1:FFF0C3F48aD1iN89cE^36D8^2CFD740^5ca3C76a1a022AE0CeabBbF333:a6^0D4D:C0C0750aBBDB25c7383DFA0b6.EFCA;T20ba</small></small></small></p>',
+  '<p>Congratulations! You\'ve won RED CABBAGE</p><p><img src="assets/prize/cabbage.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p><p> Very nutritious!</p>',
 
   '<p>Congratulations! You\'ve won UNNECESSARILY SPECIFIC DEVIANTART STAMPS!</p><p><img src="/prizemachine/common/stamp1.png"><img src="/prizemachine/common/stamp2.png"><img src="/prizemachine/common/stamp3.jpg"></p><p><img src="/prizemachine/common/stamp4.gif"><img src="/prizemachine/common/stamp5.png"><img src="/prizemachine/common/stamp6.gif"></p><p><span style="color:limegreen">COMMON</p><p>Stick <i>these</i> on your mail!</p>',
 
