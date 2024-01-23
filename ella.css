@@ -46,17 +46,25 @@ img {
             border-radius: 0px;
         }
 }
+.phone {
+font-size: 30px;
+}
 
 @media screen and (max-width: 850px) {
- .d1 img,
+  .d1 img,
   .d2 img,
   .d3 img {
     width: 100%;
     max-width: 90%;
     height: auto;
-    margin: 5px;
+    margin: 2px;
     border-radius: 0px;
   }
+
+.phone {
+font-size: 15px;
+}
+
   p {
     font-size: 14px; /* Adjust font size for smaller screens */
   }
