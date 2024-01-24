@@ -47,7 +47,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a CRYSTAL HEART!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Wow, pretty! Who knows what it can do?</p>',
   
-  '<p>Congratulations! You\'ve won a KELP SHAKE</p><p><img src="assets/prize/kelpshake.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>I wouldn't drink that if I were you!</p>',
+  '<p>Congratulations! You\'ve won a KELP SHAKE</p><p><img src="assets/prize/kelpshake.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>I wouldn\'t drink that if I were you!</p>',
 
   '<p>Congratulations! You\'ve won a MRI MACHINE!</p><p><img src="assets/prize/mri.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Take a look inside your friends! The limits are endless! Avoid metals!</p>',
 
