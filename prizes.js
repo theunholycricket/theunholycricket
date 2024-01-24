@@ -43,7 +43,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a UNICORN!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Ask it nicely and it will grant you a wish!</p>',
 
-  '<p>Congratulations! You\'ve won a NETHER PORTAL</p><p><img src="assets/prize/XXXXXXXXXX"></p><p><span style="color:cyan">RARE</p></span><p>Don\'t bring your bed!</p>',
+  '<p>Congratulations! You\'ve won a NETHER PORTAL</p><p><img src="assets/prize/portal.gif"></p><p><span style="color:cyan">RARE</p></span><p>Don\'t bring your bed!</p>',
 
   '<p>Congratulations! You\'ve won a CRYSTAL HEART!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Wow, pretty! Who knows what it can do?</p>',
   
