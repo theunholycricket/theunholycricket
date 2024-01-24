@@ -15,7 +15,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a NEW TEXT DOCUMENT!</p><p><img src="assets/prize/text.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>It\'s full of endless possibility! What will you write inside?</p>',
 
-  '<p>Congratulations! You\'ve won a HANNAH MONTANA DINNERWARE SET!</p><p><img src="assets/prize/Hannah.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, these plates are <i>one in a million</i>(and dishwasher safe!)</p>',
+  '<p>Congratulations! You\'ve won a HANNAH MONTANA DINNERWARE SET!</p><p><img src="assets/prize/hannah.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, these plates are <i>one in a million</i>(and dishwasher safe!)</p>',
 
   '<p>Congratulations! You\'ve won PLASTIC BALLS!</p><p><img src="/prizemachine/common/plasticballs.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Win enough of these and you can build your own ball pit!</p>',
   
@@ -23,7 +23,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won DESMOND THE MOON BEAR!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>How did he...get here?</p>',
 
-  '<p>Congratulations! You\'ve won a MYSTERIOUS CD!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Listen to it?</a></p>',
+  '<p>Congratulations! You\'ve won a MYSTERIOUS CD!</p><p><img src="assets/prize/cd.gif" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p><a href="https://www.youtube.com/watch?v=Ci04mGSKbe0">Listen to it?</a></p>',
 
   '<p>Congratulations! You\'ve won the POKÉMON SCARLET AND VIOLET PREORDER BONUS!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>This will really help you get started on your journey!</p>',
 
@@ -31,7 +31,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a iPHONE 5C</p><p><img src="assets/prize/5c.jpeg" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Who need titanium when you could have plastic!</p>',
 
-  '<p>Congratulations! You\'ve won FISH SOAP!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>When you put it on your hands, you can hear the ocean!</p>',
+  '<p>Congratulations! You\'ve won A BIG BINKS CHOCOLATE BUNNY</p><p><img src="assets/prize/bunny.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>two full pounds of sweet, sweet Palmers milk chocolate!</p>',
 
   '<p>Congratulations! You\'ve won a GIANT NOVELTY PEN!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use it to write down your biggest thoughts!</p>',
   
