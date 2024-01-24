@@ -11,9 +11,9 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won BABY KEYS</p><p><img src="assets/prize/babykeys.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Only thing these unlock is your inner child!</p>',
 
-  '<p>Congratulations! You\'ve won a HOT PINK BITCH!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Her name is Breakfast!</p>',
+  '<p>Congratulations! You\'ve won a HOT PINK BITCH!</p><p><img src="assets/prize/dog.gif" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Her name is Breakfast!</p>',
 
-  '<p>Congratulations! You\'ve won a NEW TEXT DOCUMENT!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>It\'s full of endless possibility! What will you write inside?</p>',
+  '<p>Congratulations! You\'ve won a NEW TEXT DOCUMENT!</p><p><img src="assets/prize/text.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>It\'s full of endless possibility! What will you write inside?</p>',
 
   '<p>Congratulations! You\'ve won a HANNAH MONTANA DINNERWARE SET!</p><p><img src="assets/prize/Hannah.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, these plates are <i>one in a million</i>(and dishwasher safe!)</p>',
 
@@ -35,7 +35,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a GIANT NOVELTY PEN!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use it to write down your biggest thoughts!</p>',
   
-  '<p>Congratulations! You\'ve won HEELIES!</p><p><img src="assets/prize/rare/heelies.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Roll on over to your crush! You\'re sure to impress!</p>',
+  '<p>Congratulations! You\'ve won HEELIES!</p><p><img src="assets/prize/heelies.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Roll on over to your crush! You\'re sure to impress!</p>',
 
   '<p>Congratulations! You\'ve won LIGHTNING MCQUEEN CROCS</p><p><img src="assets/prize/crocs.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>These will make the ladies say KA-CHOW!</p>',
 
@@ -46,13 +46,12 @@ var prizes = [
   '<p>Congratulations! You\'ve won a NETHER PORTAL</p><p><img src="assets/prize/XXXXXXXXXX"></p><p><span style="color:cyan">RARE</p></span><p>Don/'t bring your bed!</p>',
 
   '<p>Congratulations! You\'ve won a CRYSTAL HEART!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Wow, pretty! Who knows what it can do?</p>',
-
   
   '<p>Congratulations! You\'ve won a KELP SHAKE</p><p><img src="assets/prize/kelpshake.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>I wouldn't drink that if I were you!</p>',
 
-  '<p>Congratulations! You\'ve won a HORNLESS UNICORN!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Even rarer than a regular unicorn!</p>',
+  '<p>Congratulations! You\'ve won a MRI MACHINE!</p><p><img src="assets/prize/mri.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Take a look inside your friends! The limits are endless! Avoid metals!</p>',
 
-  '<p>Congratulations! You\'ve won INFINITE JELLYBEANS!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Say goodbye to those inconvenient "I\'m out of jellybeans again" trips to the grocery store!</p>',
+  '<p>Congratulations! You\'ve won APRIL 2007 ISSUE OF J-14 MAGAZINE!</p><p><img src="assets/prize/j14.jpg" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Free glossy posters included!</p>',
 
   '<p>Congratulations! You\'ve won SPAMTON!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>"WH4T? HOW THE [$!$!] DID I GET INTO THIS [[Mystery Machine]] ??</p>',
   
