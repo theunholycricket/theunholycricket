@@ -15,11 +15,11 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a NEW TEXT DOCUMENT!</p><p><img src="/prizemachine/common/txt.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>It\'s full of endless possibility! What will you write inside?</p>',
 
-  '<p>Congratulations! You\'ve won a HORSE!</p><p><img src="/prizemachine/common/horse.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, cool! Your new best friend!</p>',
+  '<p>Congratulations! You\'ve won a HANNAH MONTANA DINNERWARE SET!</p><p><img src="assets/prize/Hannah.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, these plates are <i>one in a million</i>(and dishwasher safe!)</p>',
 
   '<p>Congratulations! You\'ve won PLASTIC BALLS!</p><p><img src="/prizemachine/common/plasticballs.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Win enough of these and you can build your own ball pit!</p>',
   
-  '<p>Congratulations! You\'ve won BUTTERED TOAST!</p><p><img src="/prizemachine/uncommon/toast.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Mmm, yummy! Who doesn\'t love toast?</p>',
+  '<p>Congratulations! You\'ve won KUNG FU PANDA 3 ON DVD</p><p><img src="assets/prize/panda.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>2 movies was <u>NOT</u> enough!</p>',
 
   '<p>Congratulations! You\'ve won DESMOND THE MOON BEAR!</p><p><img src="/prizemachine/uncommon/desmond.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>How did he...get here?</p>',
 
@@ -27,9 +27,9 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won the POKÉMON SCARLET AND VIOLET PREORDER BONUS!</p><p><img src="/prizemachine/uncommon/preorderbonus.jpg" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>This will really help you get started on your journey!</p>',
 
-  '<p>Congratulations! You\'ve won a FREE SPIN ON THE WEBKINZ WHEEL OF WOW!</p><p><img src="assets/prize/wow.png"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use this random prize to go win another random prize!</p>',
+  '<p>Congratulations! You\'ve won a FREE SPIN ON THE WEBKINZ WHEEL OF WOW!</p><p><img src="assets/prize/wow.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use this random prize to go win another random prize!</p>',
 
-  '<p>Congratulations! You\'ve won a iPHONE 5C</p><p><img src="/prizemachine/uncommon/bootlegshirt.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Who need titanium when you could have plastic!</p>',
+  '<p>Congratulations! You\'ve won a iPHONE 5C</p><p><img src="assets/prize/5c.jpeg" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Who need titanium when you could have plastic!</p>',
 
   '<p>Congratulations! You\'ve won FISH SOAP!</p><p><img src="/prizemachine/uncommon/fishsoap.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>When you put it on your hands, you can hear the ocean!</p>',
 
