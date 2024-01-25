@@ -13,8 +13,17 @@ body {
   background-size: 25%;
   background-repeat: repeat;
   background-position: left top, right bottom;
-  color: black;
+  font-color: white;
 }
+
+.body3 {
+  background-color: #FFFFFF;
+  background-image: url("https://t4.ftcdn.net/jpg/01/06/79/61/360_F_106796186_8OjOE5qYK9erpcDQ0LSClE7IgmH5cUra.jpg");
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: left top, right bottom;
+Color:#FFFFFF;
+;
 
 h1 {
   color: #013220;
