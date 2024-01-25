@@ -53,7 +53,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won APRIL 2007 ISSUE OF J-14 MAGAZINE!</p><p><img src="assets/prize/j14.jpg" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Free glossy posters included!</p>',
 
-  '<p>Congratulations! You\'ve won DAYTON 1/3 HP GENERAL PURPOSE MOTOR,CAPACITOR-START 1725 VOLTAGE 115/208-230</p><p><img src="assets/prize/motor.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>WOW! Its suitable for use in dusty, dirty, nonhazardous environments, this motor can be used with speed reducers, pumps, blowers, conveyors, and other equipment that mounts directly to a NEMA C-face motor!!!</p>',
+  '<p>Congratulations! You\'ve won DAYTON 1/3 HP GENERAL PURPOSE MOTOR,CAPACITOR-START 1725 VOLTAGE 115/208-230</p><p><img src="assets/prize/motor.jpg" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>WOW! Its suitable for use in dusty, dirty, nonhazardous environments, this motor can be used with speed reducers, pumps, blowers, conveyors, and other equipment that mounts directly to a NEMA C-face motor!!!</p>',
   
   '<p>Congratulations! You\'ve won a SEAL MASCOT COSTUME</p><p><img src="assets/prize/seal.png" style="height:200px"></p><p><span style="color:red">LEGENDARY</p></span><p>It sure is a seal!</p>',
 
