@@ -19,21 +19,21 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won AMERICAN SPIRITS!</p><p><img src="assets/prize/spirits.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Try to save some for tomorrow!</p>',
   
-  '<p>Congratulations! You\'ve won KUNG FU PANDA 3 ON DVD</p><p><img src="assets/prize/panda.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>2 movies was <u>NOT</u> enough!</p>',
+  '<p>Congratulations! You\'ve won KUNG FU PANDA 3 ON DVD</p><p><img src="assets/prize/panda.png" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p>2 movies was <u>NOT</u> enough!</p>',
 
-  '<p>Congratulations! You\'ve won DESMOND THE MOON BEAR!</p><p><img src="assets/prize/desmond.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>How did he...get here?</p>',
+  '<p>Congratulations! You\'ve won DESMOND THE MOON BEAR!</p><p><img src="assets/prize/desmond.png" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p>How did he...get here?</p>',
 
-  '<p>Congratulations! You\'ve won a MYSTERIOUS CD!</p><p><img src="assets/prize/cd.gif" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p><a href="https://www.youtube.com/watch?v=Ci04mGSKbe0">Listen to it?</a></p>',
+  '<p>Congratulations! You\'ve won a MYSTERIOUS CD!</p><p><img src="assets/prize/cd.gif" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p><a href="https://www.youtube.com/watch?v=Ci04mGSKbe0">Listen to it?</a></p>',
 
-  '<p>Congratulations! You\'ve won the TEEN CHOICE AWARD!</p><p><img src="assets/prize/tca.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>The kids must love you!</p>',
+  '<p>Congratulations! You\'ve won the TEEN CHOICE AWARD!</p><p><img src="assets/prize/tca.png" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p>The kids must love you!</p>',
 
-  '<p>Congratulations! You\'ve won a FREE SPIN ON THE WEBKINZ WHEEL OF WOW!</p><p><img src="assets/prize/wow.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use this random prize to go win another random prize!</p>',
+  '<p>Congratulations! You\'ve won a FREE SPIN ON THE WEBKINZ WHEEL OF WOW!</p><p><img src="assets/prize/wow.png" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p>Use this random prize to go win another random prize!</p>',
 
-  '<p>Congratulations! You\'ve won a iPHONE 5C</p><p><img src="assets/prize/5c.jpeg" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Who need titanium when you could have plastic!</p>',
+  '<p>Congratulations! You\'ve won a iPHONE 5C</p><p><img src="assets/prize/5c.jpeg" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p>Who need titanium when you could have plastic!</p>',
 
-  '<p>Congratulations! You\'ve won A BIG BINKS CHOCOLATE BUNNY</p><p><img src="assets/prize/bunny.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>two full pounds of sweet, sweet Palmers milk chocolate!</p>',
+  '<p>Congratulations! You\'ve won A BIG BINKS CHOCOLATE BUNNY</p><p><img src="assets/prize/bunny.png" style="height:200px"></p><p><span style="color:orange">UNCOMMON</p></span><p>two full pounds of sweet, sweet Palmers milk chocolate!</p>',
 
-  '<p>Congratulations! You\'ve won a FUSHIGI!</p><p><img src="assets/prize/fushigi.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Watch it float! ... kind of... !</p>',
+  '<p>Congratulations! You\'ve won a FUSHIGI!</p><p><img src="assets/prize/fushigi.png" style="height:200px"></p><p><span style="color: orange">UNCOMMON</p></span><p>Watch it float! ... kind of... !</p>',
   
   '<p>Congratulations! You\'ve won HEELIES!</p><p><img src="assets/prize/heelies.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Roll on over to your crush! You\'re sure to impress!</p>',
 
