@@ -17,7 +17,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a HANNAH MONTANA DINNERWARE SET!</p><p><img src="assets/prize/hannah.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, these plates are <i>one in a million</i>(and dishwasher safe!)</p>',
 
-  '<p>Congratulations! You\'ve won AMERICAN SPIRITS!</p><p><img src="/prizemachine/common/spirits.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Try to save some for tomorrow!</p>',
+  '<p>Congratulations! You\'ve won AMERICAN SPIRITS!</p><p><img src="assets/prize/spirits.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Try to save some for tomorrow!</p>',
   
   '<p>Congratulations! You\'ve won KUNG FU PANDA 3 ON DVD</p><p><img src="assets/prize/panda.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>2 movies was <u>NOT</u> enough!</p>',
 
@@ -39,7 +39,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won LIGHTNING MCQUEEN CROCS</p><p><img src="assets/prize/crocs.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>These will make the ladies say KA-CHOW!</p>',
 
-  '<p>Congratulations! You\'ve won a MYSTERIOUS TAPE!</p><p><img src="assets/prize/XXXXXXXXXX"></p><p><span style="color:cyan">RARE</p></span><p><a href="https://www.youtube.com/watch?v=nwP3TeK-fPs">Watch it?</a></p>',
+  '<p>Congratulations! You\'ve won a LEAPFROG LEAPSTER</p><p><img src="assets/prize/leapster.jpg"></p><p><span style="color:cyan">RARE</p></span><p>You will be doing complex multiplication in no time!</a></p>',
 
   '<p>Congratulations! You\'ve won a CLUB PENGUIN MEMBERSHIP CARD!</p><p><img src="assets/prize/penguin.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>This would have been epic 8 years ago!</p>',
 
