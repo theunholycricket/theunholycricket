@@ -17,15 +17,15 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a HANNAH MONTANA DINNERWARE SET!</p><p><img src="assets/prize/hannah.jpeg" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Wow, these plates are <i>one in a million</i>(and dishwasher safe!)</p>',
 
-  '<p>Congratulations! You\'ve won PLASTIC BALLS!</p><p><img src="/prizemachine/common/plasticballs.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Win enough of these and you can build your own ball pit!</p>',
+  '<p>Congratulations! You\'ve won AMERICAN SPIRITS!</p><p><img src="/prizemachine/common/spirits.png" style="height:200px"></p><p><span style="color:limegreen">COMMON</p></span><p>Try to save some for tomorrow!</p>',
   
   '<p>Congratulations! You\'ve won KUNG FU PANDA 3 ON DVD</p><p><img src="assets/prize/panda.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>2 movies was <u>NOT</u> enough!</p>',
 
-  '<p>Congratulations! You\'ve won DESMOND THE MOON BEAR!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>How did he...get here?</p>',
+  '<p>Congratulations! You\'ve won DESMOND THE MOON BEAR!</p><p><img src="assets/prize/desmond.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>How did he...get here?</p>',
 
   '<p>Congratulations! You\'ve won a MYSTERIOUS CD!</p><p><img src="assets/prize/cd.gif" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p><a href="https://www.youtube.com/watch?v=Ci04mGSKbe0">Listen to it?</a></p>',
 
-  '<p>Congratulations! You\'ve won the POKÉMON SCARLET AND VIOLET PREORDER BONUS!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>This will really help you get started on your journey!</p>',
+  '<p>Congratulations! You\'ve won the TEEN CHOICE AWARD!</p><p><img src="assets/prize/tca.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>The kids must love you!</p>',
 
   '<p>Congratulations! You\'ve won a FREE SPIN ON THE WEBKINZ WHEEL OF WOW!</p><p><img src="assets/prize/wow.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use this random prize to go win another random prize!</p>',
 
@@ -33,7 +33,7 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won A BIG BINKS CHOCOLATE BUNNY</p><p><img src="assets/prize/bunny.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>two full pounds of sweet, sweet Palmers milk chocolate!</p>',
 
-  '<p>Congratulations! You\'ve won a GIANT NOVELTY PEN!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Use it to write down your biggest thoughts!</p>',
+  '<p>Congratulations! You\'ve won a FUSHIGI!</p><p><img src="assets/prize/fushigi.png" style="height:200px"></p><p><span style="color:yellow">UNCOMMON</p></span><p>Watch it float! ... kind of... !</p>',
   
   '<p>Congratulations! You\'ve won HEELIES!</p><p><img src="assets/prize/heelies.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Roll on over to your crush! You\'re sure to impress!</p>',
 
@@ -41,11 +41,11 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won a MYSTERIOUS TAPE!</p><p><img src="assets/prize/XXXXXXXXXX"></p><p><span style="color:cyan">RARE</p></span><p><a href="https://www.youtube.com/watch?v=nwP3TeK-fPs">Watch it?</a></p>',
 
-  '<p>Congratulations! You\'ve won a UNICORN!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Ask it nicely and it will grant you a wish!</p>',
+  '<p>Congratulations! You\'ve won a CLUB PENGUIN MEMBERSHIP CARD!</p><p><img src="assets/prize/penguin.png" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>This would have been epic 8 years ago!</p>',
 
   '<p>Congratulations! You\'ve won a NETHER PORTAL</p><p><img src="assets/prize/portal.gif"></p><p><span style="color:cyan">RARE</p></span><p>Don\'t bring your bed!</p>',
 
-  '<p>Congratulations! You\'ve won a CRYSTAL HEART!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Wow, pretty! Who knows what it can do?</p>',
+  '<p>Congratulations! You\'ve won an OMINOUS ORB!</p><p><img src="assets/prize/orb.gif" style="height:200px"></p><p><span style="color:cyan">RARE</p></span><p>Wow, pretty! Be careful with that thing!</p>',
   
   '<p>Congratulations! You\'ve won a KELP SHAKE</p><p><img src="assets/prize/kelpshake.png" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>I wouldn\'t drink that if I were you!</p>',
 
@@ -53,11 +53,11 @@ var prizes = [
 
   '<p>Congratulations! You\'ve won APRIL 2007 ISSUE OF J-14 MAGAZINE!</p><p><img src="assets/prize/j14.jpg" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>Free glossy posters included!</p>',
 
-  '<p>Congratulations! You\'ve won SPAMTON!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>"WH4T? HOW THE [$!$!] DID I GET INTO THIS [[Mystery Machine]] ??</p>',
+  '<p>Congratulations! You\'ve won DAYTON 1/3 HP GENERAL PURPOSE MOTOR,CAPACITOR-START 1725 VOLTAGE 115/208-230</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:purple">EPIC</p></span><p>WOW! Its suitable for use in dusty, dirty, nonhazardous environments, this motor can be used with speed reducers, pumps, blowers, conveyors, and other equipment that mounts directly to a NEMA C-face motor!!!</p>',
   
-  '<p>Congratulations! You\'ve won a GLOWING RAINBOW DOG!</p><p><img src="assets/prize/XXXXXXXXXX" style="height:200px"></p><p><span style="color:red">LEGENDARY</p></span><p>What a beautiful creature! Can you believe it?</p>',
+  '<p>Congratulations! You\'ve won a SEAL MASCOT COSTUME</p><p><img src="assets/prize/seal.png" style="height:200px"></p><p><span style="color:red">LEGENDARY</p></span><p>It sure is a seal!</p>',
 
-  '<p>Congratulations! You\'ve won an ETHEREAL DOG!</p><p><img src="assets/prize/XXXXXXXXXX style="height:200px"></p><p><span style="color:red">LEGENDARY</p></span><p>Isn\'t it like nothing you\'ve ever seen before?</p>'
+  '<p>Congratulations! You\'ve won a TWILIGHT BOOK SERIES BOX SET</p><p><img src="assets/prize/twilight.jpg style="height:200px"></p><p><span style="color:red">LEGENDARY</p></span><p>Looks like you are busy for the next 2 months!</p>'
   ]
 function newPrize () {
     var randomNumber = Math.floor(Math.random() * (prizes.length));
