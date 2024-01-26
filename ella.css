@@ -9,11 +9,11 @@ body {
 
 .body2 {
   background-color: #FFFFFF;
-  background-image: url("https://images.thdstatic.com/productImages/22decb1a-e7ec-4b50-8102-6e50670f60be/svn/brewster-wallpaper-samples-499-20003sam-64_600.jpg");
-  background-size: 25%;
+  background-image: url("https://64.media.tumblr.com/d41fd70adca365874ec20c4d6a772ecb/tumblr_o5bper7SuQ1v118fpo1_500.gif");
+  background-size: 1100px, 1100px;
   background-repeat: repeat;
   background-position: left top, right bottom;
-  font-color: white;
+  color: black;
 }
 
 .body3 {
@@ -23,7 +23,6 @@ body {
   background-repeat: repeat;
   background-position: left top, right bottom;
 Color:#FFFFFF;
-;
 }
 
 h1 {
@@ -56,6 +55,7 @@ img {
             border-radius: 0px;
         }
 }
+
 .phone {
 font-size: 30px;
 }
